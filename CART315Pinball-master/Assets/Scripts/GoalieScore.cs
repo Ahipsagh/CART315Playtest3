@@ -35,7 +35,7 @@ public class GoalieScore : MonoBehaviour
             if (timer == 0)
             {
                 thescore.ResetMultiplier();
-                thescore.AddScore(-5);
+                thescore.AddScore(-25);
             }
 
             this.GetComponent<AudioSource>().Play();
