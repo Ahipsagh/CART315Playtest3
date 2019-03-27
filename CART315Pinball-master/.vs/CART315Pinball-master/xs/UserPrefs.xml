@@ -7,7 +7,7 @@
       <File FileName="Assets/Scripts/Score.cs" Line="7" Column="5" />
       <File FileName="Assets/Scripts/Flipper.cs" Line="21" Column="12" />
       <File FileName="Assets/Scripts/GoalieScore.cs" Line="20" Column="4" />
-      <File FileName="Assets/Scripts/GoalScoredInNet.cs" Line="44" Column="9" />
+      <File FileName="Assets/Scripts/GoalScoredInNet.cs" Line="44" Column="1" />
       <File FileName="Assets/Scripts/Bumper.cs" Line="7" Column="5" />
       <File FileName="Assets/Scripts/gameover.cs" Line="34" Column="32" />
     </Files>

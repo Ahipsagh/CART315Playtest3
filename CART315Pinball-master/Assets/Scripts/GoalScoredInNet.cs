@@ -37,8 +37,9 @@ public class GoalScoredInNet : MonoBehaviour
             theball.transform.position = initialposition;
             theball.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             this.GetComponent<AudioSource>().Play();
-            thescore.AddScore(5);
-            thescore.Addmultiplier(1);
+            thescore.ResetMultiplier();
+            thescore.AddScore(25);
+           
 
         }
 

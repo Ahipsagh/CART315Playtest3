@@ -7,10 +7,12 @@ public class gameover : MonoBehaviour
     int gameballs = 0;
     private Vector3 initialposition;
     public GameObject theball;
+    public GameObject endgame;
 
     // Start is called before the first frame update
     void Start()
     {
+        endgame.SetActive(false);
         initialposition = theball.transform.position;
     }
 
@@ -34,6 +36,7 @@ public class gameover : MonoBehaviour
         else if (gameballs >=3)
         {
             //game is over
+            endgame.SetActive(true);
             this.GetComponent<AudioSource>().Play();
             Debug.Log("game Totally over");
         }
