@@ -38,7 +38,7 @@ public class GoalScoredInNet : MonoBehaviour
             theball.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
             this.GetComponent<AudioSource>().Play();
             thescore.ResetMultiplier();
-            thescore.AddScore(25);
+            thescore.AddScore(15);
            
 
         }
