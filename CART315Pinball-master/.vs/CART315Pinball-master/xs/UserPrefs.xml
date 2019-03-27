@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{78EEE6FF-148C-51C9-EB8D-8925DDD190F4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GoalScoredInNet.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Rotate.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/Translate.cs" Line="20" Column="62" />
+      <File FileName="Assets/Scripts/GoalieBehaviour.cs" Line="46" Column="1" />
+      <File FileName="Assets/Scripts/Score.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/Flipper.cs" Line="21" Column="12" />
+      <File FileName="Assets/Scripts/GoalieScore.cs" Line="20" Column="4" />
+      <File FileName="Assets/Scripts/GoalScoredInNet.cs" Line="44" Column="9" />
+      <File FileName="Assets/Scripts/Bumper.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/gameover.cs" Line="34" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
