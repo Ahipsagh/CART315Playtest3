@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1680
     height: 902
-  m_MinSize: {x: 705, y: 474}
-  m_MaxSize: {x: 18000, y: 14024}
+  m_MinSize: {x: 677, y: 348}
+  m_MaxSize: {x: 12002, y: 8048}
   vertical: 0
-  controlID: 2784
+  controlID: 5466
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,10 +127,10 @@ MonoBehaviour:
     y: 0
     width: 1070
     height: 902
-  m_MinSize: {x: 230, y: 474}
-  m_MaxSize: {x: 10000, y: 14024}
+  m_MinSize: {x: 202, y: 348}
+  m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 2785
+  controlID: 5441
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,9 +216,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.0659256, y: -26.458221, z: -0.523037}
+    m_Target: {x: 39.6227, y: -15.456451, z: 1.3059378}
     speed: 2
-    m_Value: {x: 4.0659256, y: -26.458221, z: -0.523037}
+    m_Value: {x: 39.6227, y: -15.456451, z: 1.3059378}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -246,13 +246,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.62871647, y: -0.34382144, z: 0.36290672, w: -0.59565187}
+    m_Target: {x: -0.35143358, y: -0.61006284, z: 0.34557933, w: -0.6203973}
     speed: 2
-    m_Value: {x: -0.62871647, y: -0.34382144, z: 0.36290672, w: -0.59565187}
+    m_Value: {x: -0.35143358, y: -0.61006284, z: 0.34557933, w: -0.6203973}
   m_Size:
-    m_Target: 50.802105
+    m_Target: 111.96759
     speed: 2
-    m_Value: 50.802105
+    m_Value: 111.96759
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -283,14 +283,14 @@ MonoBehaviour:
     y: 595
     width: 1070
     height: 307
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_ActualView: {fileID: 8}
+  m_MinSize: {x: 102, y: 124}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 9}
   m_Panes:
   - {fileID: 8}
   - {fileID: 9}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -395,8 +395,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ba250000
-    m_LastClickedInstanceID: 9658
+    m_SelectedInstanceIDs: c82e0000
+    m_LastClickedInstanceID: 11976
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300008a2900003e270000103c0000
     m_RenameOverlay:

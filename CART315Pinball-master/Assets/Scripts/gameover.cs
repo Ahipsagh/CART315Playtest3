@@ -8,6 +8,7 @@ public class gameover : MonoBehaviour
     private Vector3 initialposition;
     public GameObject theball;
     public GameObject endgame;
+    private bool totallyover=false;
 
     // Start is called before the first frame update
     void Start()
@@ -24,21 +25,30 @@ public class gameover : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        if (gameballs < 3)
+        if (gameballs < 1)
         {
             if (collider.gameObject == theball)
             {
                 Debug.Log("game over");
-                theball.transform.position = initialposition;
-                gameballs += 1;
+                if (!totallyover)
+                {
+                    theball.transform.position = initialposition;
+                    gameballs += 1;
+                }
+
+
             }
         }
-        else if (gameballs >=3)
+        else
         {
             //game is over
             endgame.SetActive(true);
-            this.GetComponent<AudioSource>().Play();
-            Debug.Log("game Totally over");
+            totallyover = true;
+            if (totallyover)
+            {
+                this.GetComponent<AudioSource>().Play();
+                Debug.Log("game Totally over");
+            }
         }
     }
 }
